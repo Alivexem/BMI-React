@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F0FBF5;
+  font-family: 'Crimson Text', serif;
+}
+header{
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  height: 60px;
+  background: rgba(225, 225, 225, 1);
+
+  border-color: black;
+  border-width: 0px 0px 2px;
+  border-style: solid;
+}
+.bar{
+  font-size: 1.2rem;
+  margin-left: 15px;
+}
+.headerText{
+  margin-left: 15px;
+}
+h1{
+  font-family: 'EB Garamond', serif;
+}
+.blockDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  height: auto;
+  border: 1px solid #89c47a;
+  margin-top: 30px;
+  background-color: #55ad32;
+  color: #e8f5e9;
+}
+.blockDiv h4{
+  margin: 7px;
+}
+input{
+  height: 1.65vh;
+  width: 18vw;
+  border: 0.7px solid gray;
+  padding: 7px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+select{
+  height: 25px;
+  width: 18vw;
+  font-size: 1rem;
+}
+.secDiv{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+}
+
+.secDiv h3{
+  margin: 11px;
+}
+button{
+  height: 30px;
+  width: 110px;
+  padding: 5px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.remarks{
+  height: auto;
+  margin-bottom: 60px;
+  padding: 8px;
+  border-radius: 5px;
+  width: 270px;
+  border: 2px solid #6f8063;
+}
+button:active{
+  background-color: gray;
+}
+.check{
+  background-color: green;
+  color: white;
+  
+}
+
+.reset{
+  background-color: orangered;
+  color: white;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+  height: 80px;
+  font-family: monospace;
+}
+
