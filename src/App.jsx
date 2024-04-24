@@ -61,7 +61,7 @@ const App = () => {
       setReady([ready[0],ready[1],ready[2],false])  
     }
  
-   setGender(parseInt(e.target.value))
+   setGender(e.target.value)
   }
 
 
