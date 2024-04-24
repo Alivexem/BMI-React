@@ -1,17 +1,56 @@
-## Running React on Repl.it
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+# BMI Calculator
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+This project is a Body Mass Index (BMI) calculator built with ReactJS. It calculates BMI based on user input (height and weight) and displays targeted messages based on the calculated BMI value.
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+## Features
 
-### Typescript
+- Calculate BMI based on height and weight input.
+- Display BMI value and corresponding health message.
+- Responsive design for use on different devices.
+- Built with ReactJS and TypeScript.
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/bmi-calculator.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd bmi-calculator
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+2. Open your browser and go to http://localhost:3000 to view the BMI calculator.
+
+3. Enter your height (in feet and inches) and weight (in pounds) to calculate your BMI.
+
+## Preview
+
+You can also preview the live version of the BMI calculator [here](https://your-bmi-calculator-url).
+
+## Technologies Used
+
+- ReactJS
+- TypeScript
+- Vite bundler
+- FontAwesome icons
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
