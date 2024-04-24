@@ -42,7 +42,7 @@ This project is a Body Mass Index (BMI) calculator built with ReactJS. It calcul
 
 ## Preview
 
-You can also preview the live version of the BMI calculator [here](https://your-bmi-calculator-url).
+You can also preview the live version of the BMI calculator • https://body-mass-index-nine.vercel.app/
 
 ## Technologies Used
 
