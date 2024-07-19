@@ -177,7 +177,7 @@ const App = () => {
                  
       </div>
     
-    </div>
+    
       <footer>
        &copy; AlivexemTech, 2024. All rights reserved.
       </footer>
