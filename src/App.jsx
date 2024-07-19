@@ -142,7 +142,8 @@ const App = () => {
       <h4 style={{backgroundColor: 'red'}}>Overweight BMI: <span style={{fontSize: '1.1rem', fontFamily: 'monospace'}}> 25 - 29.9 </span></h4>
     </div>
       <hr style={{marginTop: '30px'}}/>
-      
+       <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
+        
       <div className='happen' style={{height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop: '30px'}}>
         
               <div className="secDiv">
@@ -175,6 +176,7 @@ const App = () => {
       
       </div>
     </div>
+              </div>
       <footer>
         AlivexemTech, 2024. All rights reserved.
       </footer>
