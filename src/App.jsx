@@ -143,7 +143,7 @@ const App = () => {
     </div>
       <hr style={{marginTop: '30px'}}/>
       
-      <div style={{ width: '90%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop: '30px'}}>
+      <div style={{width: '90%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop: '30px'}}>
         
               <div className="secDiv">
                 <h3><FontAwesomeIcon icon={faRuler} style={{marginRight: '10px'}} /> Height:</h3>
@@ -174,9 +174,6 @@ const App = () => {
         <h4 style={{marginTop: '15px'}}>Remarks: <span style={{fontSize: '0.9rem', fontFamily: 'monospace'}}> {remarks}</span></h4>
       
       </div>
-                 
-      </div>   
-    </div>
     </div>
       <footer>
         AlivexemTech, 2024. All rights reserved.
