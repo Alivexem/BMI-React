@@ -143,7 +143,7 @@ const App = () => {
     </div>
       <hr style={{marginTop: '30px'}}/>
       
-      <div className='happen' style={{height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop: '30px'}}>
+      <div style={{ width: 90%;, height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop: '30px'}}>
         
               <div className="secDiv">
                 <h3><FontAwesomeIcon icon={faRuler} style={{marginRight: '10px'}} /> Height:</h3>
