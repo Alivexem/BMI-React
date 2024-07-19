@@ -122,7 +122,10 @@ body{
   font-family: 'Crimson Text', serif;
 }
 .happen{
-  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
 }
 header{
   display: flex;
