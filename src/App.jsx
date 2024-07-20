@@ -123,7 +123,7 @@ const App = () => {
   return (
     <>
      <header>
-       <img style={{borderRadius: '50%', marginLeft: '10px'}} src="logo.png" alt="logo" width="45" height="45" />
+       <img className='imghead' style={{borderRadius: '50%', marginLeft: '10px'}} src="logo.png" alt="logo" width="45" height="45" />
        <h1 className="headerText">Heldy</h1>
        <small style={{margin: '10px 0 0 5px'}}>Body Max Index</small>
      </header>
