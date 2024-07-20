@@ -164,8 +164,8 @@ h1{
   margin: 7px;
 }
 input{
-  height: 1.65vh;
-  width: 18vw;
+  height: 35px;
+  width: 90px;
   border: 0.7px solid gray;
   padding: 7px;
   font-size: 1rem;
