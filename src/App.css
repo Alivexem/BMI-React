@@ -164,7 +164,7 @@ h1{
   margin: 7px;
 }
 input{
-  height: 35px;
+  height: 25px;
   width: 90px;
   border: 0.7px solid gray;
   padding: 7px;
@@ -173,7 +173,7 @@ input{
 }
 select{
   height: 25px;
-  width: 20vw;
+  width: 60px;
   font-size: 1rem;
 }
 .secDiv{
@@ -195,6 +195,9 @@ button{
   border-radius: 5px;
   font-size: 1rem;
 }
+  .imghead{
+    margin-left: 150px;
+  }
 .remarks{
   height: auto;
   margin-bottom: 60px;
